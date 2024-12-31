@@ -9,7 +9,7 @@
   },
   "mounts": [
     "source=${localEnv:HOME}/dev/components/config,target=${containerWorkspaceFolder}/config,type=bind",
-    "source-${localEnv:HOME}/dev/components/blebed,target=${containerWorkspaceFolder}/ha-core/homeassistant/components/blebed,type=bind,consistency=cached"
+    "source=${localEnv:HOME}/dev/components/blebed,target=${containerWorkspaceFolder}/ha-core/homeassistant/components/blebed,type=bind,consistency=cached"
   ],
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
